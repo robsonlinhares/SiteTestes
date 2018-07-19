@@ -1,0 +1,156 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#fundo {
+	width: 100%;
+	height: 100%;
+	background-image:url(../images/fundo.png);
+	position: relative;
+}
+
+#logo {
+    width: 14%;
+    height: 14%;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 3%;
+    left: 9%;
+    transform: translateX(-50%);
+}
+
+#mapa-terminal {
+    width: 82%;
+    height: 66%;
+    background-image: url(../images/mapa-terminal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 2%;
+    left: 56%;
+    transform: translateX(-50%);
+}
+
+.quadro-categoria {    
+    background-color: #007e89;
+    position: absolute;  
+}
+
+/*#quadro-categoria-ParkingArea {
+    width: 25.3%;
+    height: 27.6%;
+    background-color: #007e89;
+    position: absolute;
+    left: 1%;
+    top: 70.2%;
+}*/
+
+/*#titulo-quadro-categoria-ParkingArea {
+    width: 100.3%;
+    height: 17.6%;
+    background-color: #005960;
+    position: absolute;
+    left: 0%;
+    top: -0.8%;
+}*/
+
+#titulo-quadro-categoria {   
+    background-color: #005960;
+    position: absolute;
+}
+
+.titulo-categoria {
+    color: #FFF;
+    font-size: 1.4vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#quadro-total-truck-ParkingArea {
+    width: 100.3%;
+    height: 35.6%;
+    background-color:  #FFF;
+    position: absolute;
+    left: 0%;
+    top: 16.2%;
+}*/
+
+#quadro-total-truck {    
+    background-color:  #FFF;
+    position: absolute;    
+}
+
+/*#quadro-total-categoria-ParkingArea {
+    width: 64%;
+    height: 47.6%;
+    background-color: #007e89;
+    position: absolute;
+    margin-left: 33%;
+    left: 0%;
+    top: 52.2%;
+}*/
+
+.categoria-conteudo {
+    margin-left: 3vh;
+	margin-bottom: -2vh;
+}
+
+.categoria-label {
+	font-size: 1.2vw;
+    font-weight: bold;    
+    color: #005960;
+}
+
+.categoria-label-valor {
+	font-size: 1.0vw;
+    font-weight: bold;    
+    color: #005960;
+	margin-left: 40%;
+}
+
+#linha{
+  width: 100%;
+  border-bottom: 1px solid #bbced0;
+}
+
+#tb-total-categoria-parking-area {
+    width: 100.3%;
+    height: -2.2%;
+    position: absolute;
+    left: -0.6%;
+    top: 54.2%;
+}
+
+.tb-total-categoria {
+    position: absolute;    
+}
+
+/*#tb-label-categoria-parking-area {
+    width: 40.3%;
+    height: 12.8%;
+    position: absolute;
+    left: 2.4%;
+    top: 66.2%;
+    color: white;
+}*/
+
+table td.categoria-titulo {
+    color: #005960;
+    font-size: 1vw;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ffffff;
+    height: 2%;
+    border: 0.5vw solid #007e89;
+}
+
+.valor-tabela {
+	font-size: 1vw;    
+    color: #ffffff;
+	text-align: center;
+}
+
